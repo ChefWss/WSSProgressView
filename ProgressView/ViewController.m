@@ -35,7 +35,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // UI
     
     _sectorProgress = [[ZXYSectorProgress alloc] initWithFrame:CGRectMake(10, 30, 150, 150) progress:0];
     _sectorProgress.fillColor = [UIColor orangeColor];
